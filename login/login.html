@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop Nice & Beast</title>
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container register-container">
+        <form action="#">
+          <h1>Register Disini Untuk Membership</h1>
+          <input type="text" placeholder="Nama" />
+          <input type="text" placeholder="Username" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <button>Daftar</button>
+          <span>Atau gunakan akun yang sudah ada</span>
+          <div class="social-container">
+            <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+            <a href="#" class="social"><i class="lni lni-google"></i></a>
+            <a href="#" class="social"
+              ><i class="lni lni-linkedin-original"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-container login-container">
+        <form action="POST" class="logo" action="login_process.php">
+          <h1>Login Disini</h1>
+          <input type="text" name="username" id="username" placeholder="Username" required/>
+          <input type="password" name="password" id="username" placeholder="Password" required/>
+          <div class="content">
+            <div class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" />
+              <label>Ingatkan Saya</label>
+            </div>
+            <div class="pass-link">
+              <a href="#">Lupa Password</a>
+            </div>
+          </div>
+           <input type="submit" value="login" class="inputlogin">
+          <span>Atau gunakan akun anda</span>
+          <div class="social-container">
+            <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
+            <a href="#" class="social"><i class="lni lni-google"></i></a>
+            <a href="#" class="social"
+              ><i class="lni lni-instagram-original"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1 class="title">
+              Hello <br />
+              Peeps!
+            </h1>
+            <p>Terima kasih sudah daftar silahkan login ke halaman kami!...</p>
+            <button class="gost" id="login">
+              <i class="lni lni-handshake"></i>
+              Welcome
+              <i class="lni lni-handshake"></i>
+            </button>
+          </div>
+
+          <div class="overlay-panel overlay-right">
+            <h1 class="title">
+              Selamat <br />
+              Menikmati
+            </h1>
+            <p>
+              Apabila anda tidak memiliki akun silahkan daftar kesini untuk
+              berlangganan di kami!...
+            </p>
+            <button class="ghost" id="register">
+              <a href="../register/register.html"> Daftar</a>
+              <i class="lni lni-arrow-right register"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
